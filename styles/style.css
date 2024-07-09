@@ -220,10 +220,11 @@ main {
 }
 
 /* target section style here */
-#target-section{
+#target-section {
     min-height: 200px;
 }
-.target-details{
+
+.target-details {
     margin: 150px auto 45px auto;
     width: 850px;
     display: flex;
@@ -231,6 +232,7 @@ main {
     gap: 20px;
 
 }
+
 .target-items {
     display: flex;
     justify-content: space-between;
@@ -243,7 +245,8 @@ main {
     padding: 40px;
 }
 
-.target-card h3 {
+.target-card,
+.next-card h3 {
     color: #0D1321;
     font-size: 24px;
     font-style: normal;
@@ -252,7 +255,8 @@ main {
     margin-top: 24px;
 }
 
-.target-card p {
+.target-card,
+.next-card p {
     color: #0D1321;
     font-size: 16px;
     font-style: normal;
@@ -262,7 +266,30 @@ main {
     margin-bottom: 24px;
 }
 
-.target-card a{
+.target-card,
+.next-card a {
     color: #0D1321;
     cursor: pointer;
+}
+
+.next-target-details {
+    margin: 150px auto 45px auto;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.next-target-item{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.next-card {
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
