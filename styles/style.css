@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .text-primary {
@@ -109,12 +109,15 @@ main {
     margin: 0 auto;
 
 }
-#development{
+
+/* card style here */
+#development {
     margin-top: 70px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     padding: 80px 95px;
 }
+
 .development-section {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     /* width: 850px; */
@@ -125,55 +128,93 @@ main {
     flex-direction: column;
     gap: 24px;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
-.card-1{
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-border-radius: 16px;
-padding: 20px;
-margin-top: 20px;
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 20px;
 }
 
-.card-2{
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-flex-direction: row-reverse;
-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-padding: 20px;
+.card-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
 }
-.card-3{
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-padding: 20px;
+
+.card-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
 }
-.card-details{
+
+.card-details {
     width: 475px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.card-btn{
+
+.card-btn {
     padding: 12px 20px;
 }
-.card-img{
+
+.card-img {
     width: 275px;
 }
-.card-img img{
+
+.card-img img {
     width: 100%;
 }
-.card-title{
+
+.card-title {
     color: rgba(13, 19, 33, 0.70);
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 36px; 
+    line-height: 36px;
+}
+
+/* inspiration style here */
+
+.inspiration {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.inspiration-text {
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.inspiration-tutorial {
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    margin-top: 45px;
+}
+
+.inspiration-tutorial iframe{
+    border-radius: 8px;
 }
