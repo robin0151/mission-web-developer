@@ -38,6 +38,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    cursor: pointer;
 }
 
 /* navbar styles here */
@@ -256,7 +257,7 @@ main {
 }
 
 .target-card,
-.next-card p {
+.next-card-skill p {
     color: #0D1321;
     font-size: 16px;
     font-style: normal;
@@ -267,10 +268,11 @@ main {
 }
 
 .target-card,
-.next-card a {
+.next-card-skill a {
     color: #0D1321;
     cursor: pointer;
 }
+
 
 .next-target-details {
     margin: 150px auto 45px auto;
@@ -345,4 +347,22 @@ form {
     padding: 17px 20px;
     margin-left: 10px;
     text-align: center;
+    cursor: pointer;
+}
+
+footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+}
+
+.author-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 32px 150px;
+}
+
+.social-links img {
+    margin-left: 10px;
 }
