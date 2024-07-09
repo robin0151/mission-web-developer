@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .text-primary {
@@ -192,7 +192,6 @@ main {
 /* inspiration style here */
 
 .inspiration {
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,6 +200,7 @@ main {
 }
 
 .inspiration-text {
+    text-align: center;
     width: 850px;
     margin: 0 auto;
     display: flex;
@@ -215,6 +215,54 @@ main {
     margin-top: 45px;
 }
 
-.inspiration-tutorial iframe{
+.inspiration-tutorial iframe {
     border-radius: 8px;
+}
+
+/* target section style here */
+#target-section{
+    min-height: 200px;
+}
+.target-details{
+    margin: 150px auto 45px auto;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.target-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.target-card {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.target-card h3 {
+    color: #0D1321;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+}
+
+.target-card p {
+    color: #0D1321;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.target-card a{
+    color: #0D1321;
+    cursor: pointer;
 }
